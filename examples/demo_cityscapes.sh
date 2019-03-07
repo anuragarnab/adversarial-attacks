@@ -1,5 +1,5 @@
-wget -N http://vobj.cs.princeton.edu/models/dilation10_cityscapes.caffemodel -P models/
-
+wget -N http://dl.yf.io/dilation/models/dilation10_cityscapes.caffemodel -P models/
+#http://vobj.cs.princeton.edu/models/dilation10_cityscapes.caffemodel, This link is broken. Found the above one.
 gpu=0
 model_def=models/dilation10_cityscapes.prototxt
 model_weights=models/dilation10_cityscapes.caffemodel
